@@ -1,0 +1,15 @@
+G:\Csharp_Projects\ClassesAndObjects\bin\Debug\net8.0\ClassesAndObjects.exe
+G:\Csharp_Projects\ClassesAndObjects\bin\Debug\net8.0\ClassesAndObjects.deps.json
+G:\Csharp_Projects\ClassesAndObjects\bin\Debug\net8.0\ClassesAndObjects.runtimeconfig.json
+G:\Csharp_Projects\ClassesAndObjects\bin\Debug\net8.0\ClassesAndObjects.dll
+G:\Csharp_Projects\ClassesAndObjects\bin\Debug\net8.0\ClassesAndObjects.pdb
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ClassesAndObjects.GeneratedMSBuildEditorConfig.editorconfig
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ClassesAndObjects.AssemblyInfoInputs.cache
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ClassesAndObjects.AssemblyInfo.cs
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ClassesAndObjects.csproj.CoreCompileInputs.cache
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ClassesAndObjects.sourcelink.json
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ClassesAndObjects.dll
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\refint\ClassesAndObjects.dll
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ClassesAndObjects.pdb
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ClassesAndObjects.genruntimeconfig.cache
+G:\Csharp_Projects\ClassesAndObjects\obj\Debug\net8.0\ref\ClassesAndObjects.dll
