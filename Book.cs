@@ -7,7 +7,7 @@ public class Book
     public int pages;
 
     public Book () {
-        
+
     }
 
     public Book(string? title, string? author, int pages)
