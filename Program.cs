@@ -7,6 +7,8 @@ class Program
 
         Library library = new Library("Alexandria");
 
+        // TODO: Create a list for books
+
         Book book1 = new Book("3 Body Problem", "Liu Cixin", 302);
         Console.WriteLine(book1.title);
 
