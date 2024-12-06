@@ -4,20 +4,27 @@ class Program
 {
     static void Main(string[] args)
     {
-
         Library library = new Library("Alexandria");
 
-        // TODO: Create a LIST of books
+        Book[] books = new Book[2];
 
-        Book book1 = new Book("3 Body Problem", "Liu Cixin", 302);
-        Console.WriteLine(book1.Title);
-        // Console.WriteLine(book1.Author);
-        // Console.WriteLine(book1.Pages);
+        books[0] = new Book("3 Body Problem", "Liu Cixin", 302);
+        books[1] = new Book("The Warriors", "Sol Yurick", 181);
+        
 
-        Book book2 = new Book("The Warriors", "Sol Yurick", 181);
-        Console.WriteLine(book2.Title);
+        //TODO: add text formating
 
-        Console.WriteLine($"\nBook for read if have time: {library.bookSuggestion(book1, book2)}");
+        for (int i = 0 ; i <= books.Length - 1 ; i++) {
+            
+            Console.WriteLine("Creating book ...");
+
+            Console.WriteLine(books[i].Title);
+            Console.WriteLine(books[i].Author);
+            Console.WriteLine(books[i].Pages);
+
+        }
+
+        // Console.WriteLine($"\nBook for read if have time: {library.bookSuggestion(book1, book2)}");
 
         Console.ReadLine();
     }

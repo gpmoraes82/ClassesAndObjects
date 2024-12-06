@@ -21,7 +21,7 @@ public class Library
         }
     }
 
-    //TODO: modify to use list
+    //TODO: modify to use Array
     public string bookSuggestion (Book bookA, Book bookB){
 
         if(bookA.Pages > bookB.Pages){
