@@ -2,8 +2,6 @@
 
 public class Library
 {
-    //TODO: add proprieties, gets and sets
-
     private string? _name;
 
     public Library(string? name)
