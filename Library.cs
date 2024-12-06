@@ -7,7 +7,7 @@ public class Library
     public Library(string? name)
     {
         if (name != null) { Name = name; }
-        else { Name = "THe City Library"; }
+        else { Name = "The City Library"; }
     }
 
     public string Name
