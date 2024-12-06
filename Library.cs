@@ -4,20 +4,33 @@ public class Library
 {
     //TODO: add proprieties, gets and sets
 
+    private string? _name;
 
-    public string name;
-
-    public Library(string name){
-        this.name = name;
+    public Library(string? name)
+    {
+        if (name != null) { Name = name; }
+        else { Name = "THe City Library"; }
     }
 
-    // public string bookSuggestion (Book bookA, Book bookB){
+    public string Name
+    {
+        get { return _name; }
+        set
+        {
+            if (value != null) { _name = value; }
+            else { _name = "The City Library"; }
 
-    //     if(bookA.pages > bookB.pages){
-    //         return bookB.title;
-    //     } else {
-    //         return bookA.title;
-    //     }
+        }
+    }
 
-    // }
+    //TODO: modify to use list
+    public string bookSuggestion (Book bookA, Book bookB){
+
+        if(bookA.Pages > bookB.Pages){
+            return bookB.Title;
+        } else {
+            return bookA.Title;
+        }
+
+    }
 }
