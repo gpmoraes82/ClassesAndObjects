@@ -10,8 +10,7 @@ class Program
 
         books[0] = new Book("3 Body Problem", "Liu Cixin", 302);
         books[1] = new Book("The Warriors", "Sol Yurick", 181);
-        // books[1] = new Book("The Warriors", "Sol Yurick", 181);
-        
+       
 
         //TODO: add text formating
 
