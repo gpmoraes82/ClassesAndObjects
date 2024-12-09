@@ -20,14 +20,22 @@ public class Library
         }
     }
 
-    //TODO: modify to use Array
-    public string bookSuggestion (Book bookA, Book bookB){
+    public string bookSuggestion(Book[] books)
+    {
+        string lessPages = "N/A";
 
-        if(bookA.Pages > bookB.Pages){
-            return bookB.Title;
-        } else {
-            return bookA.Title;
+        foreach (Book b1 in books)
+        {
+            lessPages = b1.Title;
+
+            foreach (Book b2 in books)
+            {
+
+                lessPages = (b2.Pages < b1.Pages) ? b2.Title : b1.Title;
+
+            }
         }
 
+        return lessPages;
     }
 }

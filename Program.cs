@@ -24,7 +24,7 @@ class Program
 
         }
 
-        // Console.WriteLine($"\nBook for read if have time: {library.bookSuggestion(book1, book2)}");
+        Console.WriteLine($"\nBook for read if have time: {library.bookSuggestion(books)}");
 
         Console.ReadLine();
     }
