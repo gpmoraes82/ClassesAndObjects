@@ -6,17 +6,20 @@ class Program
     {
         Library library = new Library("Alexandria");
 
+        Console.WriteLine($"Welcome to {library.Name} Library");
+
         Book[] books = new Book[2];
+
 
         books[0] = new Book("3 Body Problem", "Liu Cixin", 302);
         books[1] = new Book("The Warriors", "Sol Yurick", 181);
-       
+
 
         //TODO: add text formating
 
-        for (int i = 0 ; i <= books.Length - 1 ; i++) {
-            
-            Console.WriteLine("Creating book ...");
+
+        for (int i = 0; i <= books.Length - 1; i++)
+        {
 
             Console.WriteLine(books[i].Title);
             Console.WriteLine(books[i].Author);
