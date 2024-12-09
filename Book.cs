@@ -11,8 +11,7 @@ public class Book
         get { return _title; }
         set
         {
-            if (value != null) { _title = value; }
-            else { _title = "N/A"; }
+            _title = (value != null) ? value : "N/A";
         }
     }
 
@@ -21,8 +20,7 @@ public class Book
         get { return _author; }
         set
         {
-            if (value != null) { _author = value; }
-            else { _author = "N/A"; }
+            _author = (value != null) ? value : "N/A";
         }
     }
 
@@ -31,8 +29,7 @@ public class Book
         get { return _pages; }
         set
         {
-            if (value >= 0) { _pages = value; }
-            else { _pages = 0; }
+            _pages = (value >= 0) ? value : 0;
         }
     }
 
@@ -45,20 +42,10 @@ public class Book
     public Book(string? title, string? author, int pages)
     {
         Console.WriteLine("Creating book ...");
-        if (title != null || author != null || pages >= 0)
-        {
 
-            Title = title;
-            Author = author;
-            Pages = pages;
-
-        }
-        else
-        {
-            Title = "N/A";
-            Author = "N/A";
-            Pages = 0;
-        }
+        Title = title;
+        Author = author;
+        Pages = pages;
 
     }
 

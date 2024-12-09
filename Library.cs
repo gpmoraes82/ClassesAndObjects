@@ -17,7 +17,6 @@ public class Library
         {
             if (value != null) { _name = value; }
             else { _name = "The City Library"; }
-
         }
     }
 
