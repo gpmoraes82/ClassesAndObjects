@@ -13,9 +13,7 @@ class Program
         books[0] = new Book("3 Body Problem", "Liu Cixin", 302);
         books[1] = new Book("The Warriors", "Sol Yurick", 181);
 
-
-        //TODO: add text formating and move to Library since library organize library things
-        for (int i = 0; i <= books.Length - 1; i++)
+        for (int i = 0; i <= Book.booksCount - 1; i++)
         {
             string pagesStrParser = "-1";
             int pagesLength = 0;

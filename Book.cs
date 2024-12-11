@@ -5,6 +5,7 @@ public class Book
     private string? _title;
     private string? _author;
     private int _pages;
+    public static int booksCount = 0;
 
     public string Title
     {
@@ -46,6 +47,8 @@ public class Book
         Title = title;
         Author = author;
         Pages = pages;
+
+        booksCount++;
 
     }
 
