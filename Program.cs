@@ -28,9 +28,9 @@ class Program
 
         }
 
-        Console.WriteLine($"\n N° of Books add to {library.Name}: {Book.booksCount}");
-
         Console.WriteLine($"\nBook for read if have time: {library.bookSuggestion(books)}");
+        
+        Console.WriteLine($"\nN° of Books add to {library.Name}: {Book.booksCount}");
 
         Console.ReadLine();
     }
