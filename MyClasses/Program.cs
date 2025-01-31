@@ -13,7 +13,8 @@ class Program
         books[0] = new Book("3 Body Problem", "Liu Cixin", 302);
         books[1] = new Book("The Warriors", "Sol Yurick", 181);
 
-        for (int i = 0; i <= Book.booksCount - 1; i++)
+        // for (int i = 0; i <= Book.booksCount - 1; i++)
+        for (int i = 0; i <= Tools.BooksQuantity() - 1; i++)
         {
             string pagesStrParser = "-1";
             int pagesLength = 0;
@@ -30,7 +31,8 @@ class Program
 
         Console.WriteLine($"\nBook for read if have time: {library.bookSuggestion(books)}");
         
-        Console.WriteLine($"\nN° of Books add to {library.Name}: {Book.booksCount}");
+        //Console.WriteLine($"\nN° of Books add to {library.Name}: {Book.booksCount}");
+        Console.WriteLine($"\nN° of Books add to {library.Name}: {Tools.BooksQuantity()}");
 
         Console.ReadLine();
     }

@@ -5,7 +5,7 @@ public class Book
     private string? _title;
     private string? _author;
     private int _pages;
-    public static int booksCount = 0;
+    // public static int booksCount = 0;
 
     public string Title
     {
@@ -48,7 +48,9 @@ public class Book
         Author = author;
         Pages = pages;
 
-        booksCount++;
+        // booksCount++;
+
+        Tools.BooksCounter();
 
     }
 
