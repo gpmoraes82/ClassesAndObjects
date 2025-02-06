@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Csharp_Projects\\ClassesAndObjects\\ClassesAndObjects.csproj": {}
+    "g:\\Csharp_Projects\\ClassesAndObjects\\ClassesAndObjects.csproj": {}
   },
   "projects": {
-    "G:\\Csharp_Projects\\ClassesAndObjects\\ClassesAndObjects.csproj": {
+    "g:\\Csharp_Projects\\ClassesAndObjects\\ClassesAndObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Csharp_Projects\\ClassesAndObjects\\ClassesAndObjects.csproj",
+        "projectUniqueName": "g:\\Csharp_Projects\\ClassesAndObjects\\ClassesAndObjects.csproj",
         "projectName": "ClassesAndObjects",
-        "projectPath": "G:\\Csharp_Projects\\ClassesAndObjects\\ClassesAndObjects.csproj",
+        "projectPath": "g:\\Csharp_Projects\\ClassesAndObjects\\ClassesAndObjects.csproj",
         "packagesPath": "C:\\Users\\gpmor\\.nuget\\packages\\",
-        "outputPath": "G:\\Csharp_Projects\\ClassesAndObjects\\obj\\",
+        "outputPath": "g:\\Csharp_Projects\\ClassesAndObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gpmor\\AppData\\Roaming\\NuGet\\NuGet.Config"
