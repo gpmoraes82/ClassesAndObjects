@@ -5,6 +5,7 @@ public class Employee
 
     private int _age;
     private string? _name;
+    internal string? _permition;
 
     public int Age
     {
@@ -23,10 +24,20 @@ public class Employee
             _name = (value != null) ? value : "N/A";
         }
     }
-    
-    protected Employee(string? name, int age){
+
+    public virtual string Permition
+    {
+        get { return _permition; }
+        set
+        {
+            _permition = "0000"; // 0000 -> no permit
+        }
+    }
+
+    protected Employee(string? name, int age)
+    {
         Name = name;
         Age = age;
     }
-    
+
 }

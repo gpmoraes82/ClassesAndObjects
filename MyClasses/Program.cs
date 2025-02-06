@@ -12,6 +12,7 @@ class Program
 
         Console.WriteLine($"\n Hiring: {employeeLibrarian.Name}, {employeeLibrarian.Age}");
         Console.WriteLine(" ID:" + employeeLibrarian.EmployeeId.PadLeft(employeeLibrarian.EmployeeId.Length + 1, ' '));
+        Console.WriteLine(" Permition:" + employeeLibrarian.Permition.PadLeft(employeeLibrarian.Permition.Length + 1, ' '));
 
         Book[] books = new Book[2];
         books[0] = new Book("3 Body Problem", "Liu Cixin", 302);
